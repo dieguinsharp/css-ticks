@@ -1,0 +1,47 @@
+import React from 'react'
+import './Home.css';
+
+const Home = () => {
+  return (
+    <div className='container'>
+      <div className='grid-line'>
+        <div className='grid-orange'>
+          <div><h1>Titulo 1</h1></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+        </div>
+        <div className='grid'>
+          <div><h1>Titulo 1</h1></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+        </div>
+      </div>
+      <div className='grid-line'>
+        <div className='grid'>
+          <div><h1>Titulo 1</h1></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+        </div>
+        <div className='grid-orange'>
+          <div><h1>Titulo 1</h1></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+          <div><p>Informacao 1</p></div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Home

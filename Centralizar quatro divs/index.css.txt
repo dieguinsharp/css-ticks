@@ -1,0 +1,30 @@
+.container {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-line {
+    background-color: blue;
+    display: flex;
+}
+
+.grid {
+    padding: 1em;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+.grid-orange {
+    padding: 1em;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+}
